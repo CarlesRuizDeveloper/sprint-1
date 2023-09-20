@@ -1,15 +1,16 @@
 <?php
 
-define("DEFAULT", 10);
-
-$num = 10;
-$interval = 21;
+$num = 15;
+$interval = 2;
 
 function counter($num, $interval)
 {
     $i = 0;
+    if($num < 1 || !is_numeric($num)){
+        $num = 10;
+    }
 
-    if ($interval < 0 || !is_numeric($interval) || !is_numeric($num)|| $interval >= $num) {
+    if ($interval < 0 || !is_numeric($interval) || $interval > $num) {
         echo "Los datos introducidos son incorrectos. <br> Deben ser números y mayores de 1. <br> El intervalo no puede ser mayor que el número";
     } else {
         do {
