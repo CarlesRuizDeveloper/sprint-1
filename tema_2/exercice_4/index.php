@@ -20,3 +20,4 @@ function counter($num, $interval)
     } 
 }
 echo counter($num, $interval); 
+?>
