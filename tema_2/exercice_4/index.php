@@ -1,8 +1,5 @@
 <?php
 
-$num = 15;
-$interval = 2;
-
 function counter($num, $interval)
 {
     $i = 0;
@@ -19,5 +16,5 @@ function counter($num, $interval)
         } while ($i <= $num);
     } 
 }
-echo counter($num, $interval); 
+echo counter(25, 3); 
 ?>
