@@ -12,7 +12,7 @@ echo "La resta de x e y es: ".($x-$y).BR;
 echo "El producto de x e y es: ".($x*$y).BR;
 echo "El módulo de x e y es: ".($x%$y).BR.BR;
 
-echo "El valor de n es: ".$n.BR."El valor de m es: ".$m.BR;
+echo "El valor de n es: ".$n.BR."El valor de m es: ".$m.BR; 
 echo "La suma de n y m es: ".($n+$m).BR;
 echo "La resta de n y m es: ".($n-$m).BR;
 echo "El producto de n y m es: ".($n*$m).BR;

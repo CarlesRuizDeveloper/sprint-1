@@ -19,4 +19,4 @@ function counter($num, $interval)
         } while ($i <= $num);
     } 
 }
-echo counter($num, $interval);
+echo counter($num, $interval); 
