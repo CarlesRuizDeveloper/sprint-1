@@ -1,0 +1,131 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+
+}
+
+.header {
+    margin-top: 0;
+    padding: 2%;
+    background-color: black;
+}
+
+.upHeader {
+    padding: 2%;
+    background-color: rgb(47, 18, 214);
+    display: flex;
+}
+
+.upLeftHeader {
+    background-color: red;
+    width: 12%;
+    height: 30px;
+    /*Buscar pq no funciona en % el heigth*/
+}
+
+.upCenterHeader {
+    background-color: red;
+    width: 84%;
+    margin-left: 2%;
+    height: 30px;
+}
+
+.upRigthHeader {
+    background-color: red;
+    width: 12%;
+    margin-left: 2%;
+    height: 30px;
+}
+
+.downHeader {
+    margin-top: 1%;
+    padding: 2%;
+    background-color: rgb(223, 123, 51);
+}
+
+.downHeaderLine {
+    background-color: rgb(215, 203, 34);
+    height: 30px;
+}
+
+.blockContainer {
+    padding: 2%;
+    background-color: black;
+    margin-top: 2%;
+    display: flex;
+}
+
+.leftBlock {
+    background-color: rgb(90, 98, 117);
+    padding: 2%;
+    width: 73%;
+    display: inline-block;
+}
+
+.rigthBlock {
+    background-color: rgb(206, 28, 28);
+    padding: 2%;
+    width: 25%;
+    margin-left: 2%;
+}
+
+.leftupContainer {
+    display: flex;
+}
+
+.upLeftLineOne {
+    display: flex;
+    background-color: rgb(111, 117, 183);
+    width: 48%;
+    height: 30px;
+}
+
+.upLeftLineTwo {
+    background-color: rgb(111, 117, 183);
+    width: 48%;
+    height: 30px;
+    margin-left: 3%;
+}
+
+.leftCenterContainer{
+    display: flex;
+    margin-top: 2%;;
+}
+
+.blockCenterLineOne {
+    background-color: rgb(111, 117, 183);
+    width: 48%;
+    height: 30px;
+}
+.blockCenterLineTwo {
+    background-color: rgb(111, 117, 183);
+    width: 48%;
+    height: 30px;
+    margin-left: 3%;
+}
+.blockDownLine{
+    background-color: yellow; 
+    height: 30px;
+    margin-top: 2%;;
+}
+.rigthBlockLineUp{
+    background-color: yellow;
+    height: 25px;
+   
+}
+.rigthBlockLineDown{ 
+    margin-top: 4%;;
+    background-color: yellow;
+    height: 25px;
+   
+}
+.footer{
+    margin-top: 2%;;
+    background-color: black;
+    padding: 2%;
+}
+.footerLine{
+    background-color: rgb(255, 145, 0);
+    height: 30px;
+}
