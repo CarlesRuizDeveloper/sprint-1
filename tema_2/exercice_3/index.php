@@ -1,9 +1,4 @@
 <?php 
-/*
-b) Crea una funció Calculadora que entri dos nombres per paràmetre, i en un tercer paràmetre et permeti fer la suma, la resta, la multiplicació o la divisió dels dos nombres.
-
-
-*/
 
 $x = 2;
 $y = 5;
