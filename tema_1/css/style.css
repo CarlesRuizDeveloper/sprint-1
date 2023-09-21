@@ -21,7 +21,6 @@
     background-color: red;
     width: 12%;
     height: 30px;
-    /*Buscar pq no funciona en % el heigth*/
 }
 
 .upCenterHeader {
@@ -138,4 +137,55 @@
 .footerLine {
     background-color: rgb(255, 145, 0);
     height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .blockContainer{
+        display: block;
+        background-color: yellow;
+    }
+    .leftBlock{
+        width: 96%;
+        margin-bottom: 2%;
+    }
+    .rigthBlock{
+        width: 96%;
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .upHeader{
+        display: block;
+        margin-bottom: 4%;
+    }
+    .upLeftHeader, .upCenterHeader, .upRigthHeader{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 2%;
+    }
+    .upLeftHeader, .upCenterHeader{
+        margin-bottom: 4%;
+    }
+    .downHeader{
+        padding: 4%;
+    }
+    .leftupContainer, .leftCenterContainer{
+        display: block;
+    }
+    .upLeftLineOne, .upLeftLineTwo, .blockCenterLineOne, .blockCenterLineTwo{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 2%;
+    }
+    .rigthBlockLineDown{
+        margin-top: 2%;
+    }
+    .blockContainer, .footer, .header{
+        padding: 4%;
+    }
+
 }
