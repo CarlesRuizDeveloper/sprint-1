@@ -59,3 +59,4 @@ echo "Operador: ".$operator.BR;
 
 $result = calculator($num1,$num2,$operator);
 echo "El resultado de la operación es: ".$result;
+?>

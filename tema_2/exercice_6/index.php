@@ -13,3 +13,4 @@ function isBitten()
     return $msg;
 }
 echo isBitten();
+?>

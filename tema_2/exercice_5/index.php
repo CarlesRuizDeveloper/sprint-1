@@ -14,3 +14,4 @@ return $level;
 }
 
 echo nkowDivision(60);
+?>
