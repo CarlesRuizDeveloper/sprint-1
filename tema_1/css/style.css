@@ -13,25 +13,25 @@
 
 .upHeader {
     padding: 2%;
-    background-color: rgb(47, 18, 214);
+    background-color: #2d4059;
     display: flex;
 }
 
 .upLeftHeader {
-    background-color: red;
+    background-color:#ea5455;
     width: 12%;
     height: 30px;
 }
 
 .upCenterHeader {
-    background-color: red;
+    background-color: #ea5455;
     width: 84%;
     margin-left: 2%;
     height: 30px;
 }
 
 .upRigthHeader {
-    background-color: red;
+    background-color: #ea5455;
     width: 12%;
     margin-left: 2%;
     height: 30px;
@@ -40,11 +40,11 @@
 .downHeader {
     margin-top: 1%;
     padding: 2%;
-    background-color: rgb(223, 123, 51);
+    background-color: #f07b3f;
 }
 
 .downHeaderLine {
-    background-color: rgb(215, 203, 34);
+    background-color:#fed460;
     height: 30px;
 }
 
@@ -56,14 +56,14 @@
 }
 
 .leftBlock {
-    background-color: rgb(90, 98, 117);
+    background-color:  #4e4e6a;
     padding: 2%;
     width: 73%;
     display: inline-block;
 }
 
 .rigthBlock {
-    background-color: rgb(206, 28, 28);
+    background-color: #f73f52;
     padding: 2%;
     width: 25%;
     margin-left: 2%;
@@ -107,22 +107,21 @@
 }
 
 .blockDownLine {
-    background-color: yellow;
+    background-color: #70a3c4;
     height: 30px;
     margin-top: 2%;
     ;
 }
 
 .rigthBlockLineUp {
-    background-color: yellow;
+    background-color:  #feea85;
     height: 25px;
 
 }
 
 .rigthBlockLineDown {
     margin-top: 4%;
-    ;
-    background-color: yellow;
+    background-color:  #feea85;
     height: 25px;
 
 }
@@ -143,15 +142,19 @@
 
     .blockContainer{
         display: block;
-        background-color: yellow;
+        background-color:  #feff03;
     }
     .leftBlock{
-        width: 96%;
+        width: 92%;
         margin-bottom: 2%;
+        padding: 4%;
     }
     .rigthBlock{
         width: 96%;
         margin-left: 0;
+    }
+    .rigthBlockLineDown{
+        margin-top: 2%;
     }
 
 }
@@ -179,13 +182,17 @@
     .upLeftLineOne, .upLeftLineTwo, .blockCenterLineOne, .blockCenterLineTwo{
         width: 100%;
         margin-left: 0;
-        margin-bottom: 2%;
+        margin-bottom: 4%;
     }
     .rigthBlockLineDown{
-        margin-top: 2%;
+        margin-top: 4%;
     }
     .blockContainer, .footer, .header{
         padding: 4%;
+    }
+    .rigthBlock{
+        padding: 4%;
+        width: 92%;
     }
 
 }
