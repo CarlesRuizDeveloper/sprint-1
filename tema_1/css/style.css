@@ -84,7 +84,7 @@
     background-color: rgb(111, 117, 183);
     width: 48%;
     height: 30px;
-    margin-left: 3%;
+    margin-left: 4%;
 }
 
 .leftCenterContainer {
@@ -103,14 +103,13 @@
     background-color: rgb(111, 117, 183);
     width: 48%;
     height: 30px;
-    margin-left: 3%;
+    margin-left: 4%;
 }
 
 .blockDownLine {
     background-color: #70a3c4;
     height: 30px;
     margin-top: 2%;
-    ;
 }
 
 .rigthBlockLineUp {

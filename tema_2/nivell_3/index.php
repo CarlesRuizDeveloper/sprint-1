@@ -12,7 +12,7 @@ function erastotenes($numEntry){
                 array_push($numsArray, $i);
             }
         }
-
+        
         return var_dump($numsArray);
     }
 }
@@ -26,4 +26,7 @@ function isPrime($num){
     return true;
 }
 
-echo erastotenes(1);
+echo erastotenes(100);
+
+
+?>

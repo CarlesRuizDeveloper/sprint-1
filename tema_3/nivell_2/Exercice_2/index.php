@@ -15,12 +15,17 @@ $studentGrades = [
 ];
 
 function studentMedia($studentGrades){
-    
+    $i = 0;
+    while ($i< count($studentGrades)){
+        
+        $i++;
+    }
 }
 
 function classMedia($studentGrades){
 
 }
 
+studentMedia($studentGrades);
 
 ?>
