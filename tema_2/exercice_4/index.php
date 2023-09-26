@@ -1,10 +1,12 @@
 <?php
 
+define("DEFAULT_NUM",10);
+
 function counter($num, $interval)
 {
     $i = 0;
     if($num < 1 || !is_numeric($num)){
-        $num = 10;
+        $num = DEFAULT_NUM;
     }
 
     if ($interval < 0 || !is_numeric($interval) || $interval > $num) {

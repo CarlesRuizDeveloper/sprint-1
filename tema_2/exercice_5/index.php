@@ -1,17 +1,17 @@
 <?php
 
-function nkowDivision($note){
-if($note < 33){
-    $level = "Està reprovat";
-}elseif($note >= 33 && $note <=44){
-    $level ="Tercera Divisió.";
-}elseif($note >= 45 && $note <=59){
-    $level = "Segona Divisió.";
-}elseif($note >= 60){
-    $level = "Primera Divisió.";
-}
-return $level;
+function nkowDivision($note) {
+    if ($note < 33) {
+        return "Està reprovat";
+    } elseif ($note <= 44) {
+        return "Tercera Divisió.";
+    } elseif ($note <= 59) {
+        return "Segona Divisió.";
+    } else {
+        return "Primera Divisió.";
+    }
 }
 
-echo nkowDivision(60);
+echo nkowDivision(90);
+
 ?>
