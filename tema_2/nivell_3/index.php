@@ -12,7 +12,6 @@ function erastotenes($numEntry){
                 array_push($numsArray, $i);
             }
         }
-        
         return var_dump($numsArray);
     }
 }
