@@ -19,7 +19,7 @@ do {
     case 0:
         $salir = true;
         break;
-    }
+    } 
 } while (!$salir);
 
 
