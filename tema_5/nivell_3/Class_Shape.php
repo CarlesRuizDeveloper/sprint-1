@@ -14,9 +14,9 @@ class Triangle extends Shape
 
     public function area()
     {
-        echo "Introduce el ancho: ";
+        echo "Introdueix l'ample: ";
         $this->width = readline();
-        echo "Introduce la altura: ";
+        echo "Introduce l'alçada': ";
         $this->height = readline();
         $area = 0.5 * $this->width * $this->height;
         return $area;
@@ -31,10 +31,10 @@ class Rectangle extends Shape
 
     public function area()
     {
-        echo "Introdueixi l'ample: ";
-        $this-> width = readline();
-        echo "Intrduieixi l'alçada: ";
-        $this-> width= readline();
+        echo "Introdueix l'ample: ";
+        $this->width = readline();
+        echo "Introduce l'alçada': ";
+        $this->height = readline();
         $area = $this->width * $this->height;
         return $area ;
     }
@@ -45,7 +45,7 @@ class Circle extends Shape
     private $radius;
     public function area()
     {
-        echo "Introdueixi el radi: ";
+        echo "Introdueix el radi: ";
         $this->radius = readline();  
         $area =($this->radius*$this->radius) * pi();
         return $area;
