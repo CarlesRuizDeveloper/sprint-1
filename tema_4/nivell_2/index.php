@@ -36,7 +36,7 @@ do {
 function  menu() {
     $opcio =" ";
     $MINIMO = 0;
-    $MAXIMO = 5;
+    $MAXIMO = 2;
 
     do {
         echo ("\n************ MENú PRINCIPAL ************ \n \n");
