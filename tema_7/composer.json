@@ -1,11 +1,11 @@
 {
-    "name": "personaliza/sprint-1",
+    "name": "personaliza/tema_7",
     "require-dev": {
         "phpunit/phpunit": "^10.4"
     },
     "autoload": {
         "psr-4": {
-            "Personaliza\\Sprint1\\": "src/"
+            "Src\\": "src/"
         }
     },
     "require": {}
