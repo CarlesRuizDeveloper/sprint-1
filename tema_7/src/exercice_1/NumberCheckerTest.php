@@ -1,4 +1,4 @@
-<?php
+<?php // Rubén recuerda que los test pasan pero sigo teniendo problemas si no están en la misma carpeta
 require 'vendor/autoload.php';
 
 require 'NumberChecker.php'; 
