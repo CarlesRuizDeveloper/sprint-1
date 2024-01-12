@@ -8,7 +8,7 @@
 .header {
     margin-top: 0;
     padding: 2%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .upHeader {
@@ -163,25 +163,44 @@
     .upHeader{
         display: block;
         margin-bottom: 4%;
+        padding: 4%;
+        
     }
     .upLeftHeader, .upCenterHeader, .upRigthHeader{
-        width: 100%;
-        margin-left: 0;
+        width: 90%;
+        margin-left: 5%;
         margin-bottom: 2%;
+        margin-top: 2%;
     }
     .upLeftHeader, .upCenterHeader{
-        margin-bottom: 4%;
+        margin-bottom: 6%;
     }
     .downHeader{
         padding: 4%;
+    }
+    .downHeaderLine{
+        width: 90%;
     }
     .leftupContainer, .leftCenterContainer{
         display: block;
     }
     .upLeftLineOne, .upLeftLineTwo, .blockCenterLineOne, .blockCenterLineTwo{
-        width: 100%;
-        margin-left: 0;
-        margin-bottom: 4%;
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 8%;
+        background-color: rgb(98 149 156);
+    }
+    .upLeftLineOne{
+        margin-top: 2%;
+    }
+
+    .leftBlock{
+        background-color: #09506f;
+    }
+    .blockDownLine{
+        background-color: #a3ddcb;
+        width: 90%;
+        margin-bottom: 2%;
     }
     .rigthBlockLineDown{
         margin-top: 4%;
@@ -191,11 +210,33 @@
         background-color: #fdb36b;
     }
     .blockContainer, .footer, .header{
-        padding: 4%;
+        padding: 6%;
     }
     .rigthBlock{
         padding: 4%;
         width: 92%;
+        background-color: #fd7b54;
+        margin-bottom: 4%;
     }
+    .rigthBlockLineUp, .rigthBlockLineDown{
+        width: 90%;
+        background-color: #fdb36b;
+        margin-top: 2%;
+    }
+    .rigthBlockLineUp{
+        margin-bottom: 4%;
+    }
+    .rigthBlockLineDown{
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+    .footer{
+        padding: 6%;
+    }
+    .footerLine{
+        width: 100%;
+        background-color: rgb(253 199 100);
+    }
+
 
 }
